@@ -15,7 +15,7 @@ $(document).ready(function () {
             dataResult += `<div class="col mb-3 blog">
                             <a class="nav-link" href="detail.html">
                             <div class="card sekilas-blog text-dark">
-                                <img src="/img/` + items.img + `" class="card-img-top" alt="...">
+                                <img src="img/` + items.img + `" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">` + _judul + `</h5>
                                     <p class="card-text">` + _isi.substring(0, 100) + `</p>
